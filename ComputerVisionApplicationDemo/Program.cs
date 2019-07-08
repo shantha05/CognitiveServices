@@ -9,8 +9,8 @@ namespace ComputerVisionApplicationDemo
     class Program
     {
         /**set Subscription Key and End Point Url here*/
-        private static readonly string subscriptionKey = "526b4d8648464b44a1bc085958bf9d46";
-        private static readonly string endpointUrl = "https://computervisionblogdemo.cognitiveservices.azure.com/";
+        private static readonly string subscriptionKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        private static readonly string endpointUrl = "https://xxxxxxxxxxxxxxxx.cognitiveservices.azure.com/";
 
         private static ComputerVisionClient client = new CognitiveServiceClientProvider(subscriptionKey, endpointUrl)
                 .GetClient((c, h) => new ComputerVisionClient(c, handlers: h));
